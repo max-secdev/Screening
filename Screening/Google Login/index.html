@@ -15,19 +15,37 @@
                 <p class="leftsectiontext">Use your Google Account</p>
             </div>
             <div class="rightsection">
-                <label for="email"></label>
-                <input type="email" placeholder="Email or phone" id="email">
-                <a id="forgotemail" class="googlelinks" href="https://htmlpreview.github.io/?https://github.com/max-secdev/Beyond-Html/blob/main/Html/Edit.html">Forgot email?</a>
+                <form>
+                <div class="emailbox">
+                <input type="email" id="email" required>
+                <label for="email">Email or phone</label>
+                </div>
+                <a id="forgotemail" class="googlelinks" href="https://htmlpreview.github.io/?https://github.com/max-secdev/Beyond-Html/blob/main/Html/Edit.html" target="_blank">Forgot email?</a>
                 <p>Not your computer? Use Guest mode to sign in privately.
                     <a class="googlelinks" href="https://support.google.com/chrome/answer/6130773?hl=en-GB" target="_blank">Learn more about using Guest mode</a> </p>
                 <div class="button">
-                    <button id="createaccount" class="buttoncreate">Create account</button>
-                    <button id="next" class="buttoncreate">Next</button>
+                    <button id="createaccount">Create account</button>
+                    <button type="submit" id="next">Next</button>
+                </form>
                 </div>
             </div>
         </section>
+        <footer>
+            <div class="leftfooter">
+                <select name="Language" id="Language">
+                    <option value="English (United Kingdom)">English (United Kingdom)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+            </div>
+            <div class="rightfooter">
+                 <a class="footerlinks" href="https://support.google.com/accounts?hl=en-GB&visit_id=639254754919243049-3558093141&rd=2&p=account_iph#topic=3382296" target="_blank"><button id="Help" class="footerlinks" >Help</button></a>
+                 <a class="footerlinks"  href="https://policies.google.com/privacy?gl=IN&hl=en-GB&client_theme=dark" target="_blank"><button id="Privacy" class="footerlinks" >Privacy</button></a>
+                 <a class="footerlinks"  href="https://policies.google.com/terms?gl=IN&hl=en-GB&client_theme=dark" target="_blank"><button id="Terms" class="footerlinks" >Terms</button></a>
+            </div>
+        </footer>
     </main>
-    <footer></footer>
+    
     
 </body>
 </html>
