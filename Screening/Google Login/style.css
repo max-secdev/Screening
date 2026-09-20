@@ -52,33 +52,33 @@ section {
     height: 100%;
     width: 50%;
     color: white;
-    padding: 10% 3% 5% 3%;
+    padding: 11% 3% 14% 3%;
     
 }
 #email {
     /* margin-top: 20%; */
     /* padding: 4% 10%; */
-    height: 20%;
+    height: 47%;
     width: 100%;
     border-radius: 6px;
     background: transparent;
-    border: 1px solid white ;
+    border: 1px solid #4E4F4E ;
     color: white;
     font-size: 16px;
+    margin-bottom: 1%;
 }
-#email::content{
+/* #email::content{
     border-color: blue;
-}
+} */
 #forgotemail {
-    margin-top: 5%;
     font-size: 14px;
-    font-weight: 350;
+    font-weight: 500;
     text-decoration: none;
 }
 .rightsection p {
-    padding-top: 12%;
-    font-size: 14px;
-    font-weight: 400;
+    padding-top: 8%;
+    font-size: 15px;
+    font-weight: 500;
     color: #C4C7C5;
 }
 .rightsection .googlelinks {
@@ -96,7 +96,7 @@ section {
     background-color: #A8C7FA;
     color: #062E6F;
     padding: 4% 10%;
-    margin-left: 16%;
+    margin-left: 10%;
     font-size: 15px;
     font-weight: 540;
     cursor: pointer;
@@ -104,16 +104,15 @@ section {
 #createaccount {
     background: transparent;
     color: #A8C7FA;
-    padding: 2% 5%;
+    padding: 4% 5%;
     font-weight: 540;
     font-size: 14px; 
     cursor: pointer;  
+    margin-left: 6%;
 }
 .button {
-    padding-top: 12%;
+    padding-top: 9%;
     padding-left:50%;
-    
-    
 }
 
 
