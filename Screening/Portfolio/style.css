@@ -10,6 +10,34 @@ html, body {
     background-color: #1B1F24;
 }
 
+.pageloader{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 3px;
+   background: white;
+   transform: scaleX(0);
+   transform-origin: left;
+   animation: pageload 1s ease-out forwards;
+   z-index:999999;
+}
+@keyframes pageload {
+   0%{
+      transform: scaleX(0);
+   }
+   70% {
+      transform: scaleX(1);
+      opacity: 1;
+   }
+   100% {
+      transform: scaleX(1);
+      opacity: 0;
+   }
+}
+
+
+
 header {
     height: 12%;
     width: 100%;
@@ -109,6 +137,7 @@ main {
  .mainright h4 {
    margin-top: 5%;
    color: white;
+   font-size: 15px;
    font-weight: 525;
    text-decoration: underline;
    text-underline-offset: 15px;
@@ -120,15 +149,15 @@ main {
    height: 100%;
    /* background-color: blue; */
    position: absolute;
+   font-size: 18px;
    left: 33%;
    transition: 0.5s ease;
  }
- .mainright h4:hover{
-   transition: right 5s;
-   text-decoration-color: white;
- }
  .mainright h4:hover  #arrowright {
    left: 36%;
+ }
+ .mainright h4:hover {
+   text-decoration-color: white;
  }
  .mainright hr {
    opacity: 10%;;
@@ -195,10 +224,21 @@ main {
  @keyframes slideup {
    from{
       opacity: 0;
-      transform: translateY(100px);
+      transform: translateY(60px);
    }
    to{
       opacity: 1;
       transform: translateY(0);
+   }
+ }
+ .navleft  {
+   animation: float 3s ease-in-out infinite;
+ }
+ @keyframes float {
+   0%, 100% {
+      transform: translateY(0);
+   }
+   50% {
+      transform: translateY(-5px);
    }
  }
