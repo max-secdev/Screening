@@ -10,15 +10,16 @@ html, body {
     background-color: #1B1F24;
 }
 
-main {
+header {
+    height: 12%;
+    width: 100%;
+    /* background-color: red; */
+}
+ nav{
     height: 100%;
     width: 100%;
-}
-nav{
-    height: 13%;
-    width: 100%;
-    padding: 2% 5% 0 7%;
-    /* background: red; */
+    padding: 2% 10% 0 7%;
+    /* background: grey; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,22 +27,115 @@ nav{
 }
  nav .navleft {
     /* background: blue; */
-    height: 100%%;
-    /* width: 50%; */
+    height: 100%;
     display: flex;
     align-items: center;
+    color: white;
+    cursor: pointer;
 
  }
-.navleft img {
+ .navleft img {
     height: 30px;
     width: 80px;
  }
  nav .navright {
     height: 100%;
-    /* width: 50%; */
-    background-color: green;
+    width: 50%;
+    /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+ }
+ .navright p {
+    color: #B8BBC0;
+    font-weight: 525;
+    font-size: 20px;
+    cursor: pointer;
+ }
 
+
+main {
+    height: 70%;
+    /* background-color: blue; */
+    display: flex;
+    padding: 5% 5% 0% 5%;
+    
+ }
+ main .mainleft {
+    /* background-color: purple; */
+    height: 30%;
+    width: 50%;
+  }
+  .mainleft hr {
+   width: 20%;
+   
+  }
+ .mainleft h1 {
+    padding-top: 5%;
+    color: white;
+    font-size: 60px;
+  }
+ .mainleft p {
+    color: #B8BBC0;
+    font-size: 22px;
+  }
+ main .mainright {
+    height: 100%;
+    /* background-color: aqua; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15%;
+ }
+ .mainright .aboutme {
+    height: fit-content;
+    width: fit-content;
+    /* background-color: red; */
+ }
+ .mainright h4 {
+   margin-top: 5%;
+   color: white;
+   font-weight: 525;
+   text-decoration: underline;
+   text-underline-offset: 15px;
+   text-decoration-color: #475262;
+   position: relative;
+ }
+ #arrowright {
+   height: 100%;
+   /* background-color: blue; */
+   position: absolute;
+   left: 27%;
+   transition: right 3s ease;
+ }
+ #arrowright:hover {
+   left: 30%;
+ }
+ .mainright hr {
+   opacity: 10%;;
+ }
+ .aboutme h2{
+    color: white;
+   
+ }
+ .aboutme p {
+   padding-top: 5%;
+    color: #B8BBC0;
+   font-size: 22px;
+   font-weight: 500;
+ }
+ .mywork {
+   /* background-color: purple; */
+   height: fit-content;
+   width: fit-content;
+ }
+ .mywork h2 {
+   color: white;
+ }
+ .mywork p{
+   padding-top: 5%;
+   color: #B8BBC0;
+   font-size: 22px;
+   font-weight: 500;
  }
