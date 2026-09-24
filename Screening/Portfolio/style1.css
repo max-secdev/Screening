@@ -88,3 +88,48 @@ header {
    text-underline-offset: 5px;
    margin-top: 5px;
  }
+
+ main {
+    height: fit-content;
+    /* background-color: blue; */
+    display: flex;
+    padding: 5% 5% 0% 5%;
+    
+ }
+ main .mainleft {
+    /* background-color: purple; */
+    height: 30%;
+    width: 51%;
+    padding: 4% 0 0 4%;
+  }
+  .mainleft hr {
+    opacity: 0.4;
+  }
+  #dash hr {
+   width: 20%;
+   height: 10px;
+   opacity: 1;
+   background-color: white;
+  }
+ .mainleft h1 {
+    padding-top: 5%;
+    color: white;
+    font-size: 60px;
+  }
+ .mainleft p {
+   padding-top: 3%;
+    color: #B8BBC0;
+    font-size: 22px;
+  }
+  main .mainright {
+    /* background-color: blue; */
+    padding: 5%;
+    height: 150%;
+    width: 48%;
+  }
+  #profilepic {
+    border: 5px solid transparent;
+    border-radius: 70%;
+    height: 500px;
+    width: 500px;
+  }
