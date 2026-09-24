@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link
   href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
@@ -15,19 +15,21 @@
     <header>
         <nav>
             <div class="navleft">
-                <img src="./assets/logo.png" alt="dev logo">
-                <h1>Portfolio</h1>
+                <a href="./index.html"><img src="./assets/logo.png" alt="dev logo"></a>
+                <a href="./index.html"><h1>Portfolio</h1></a>
             </div>
             <div class="navright">
-                <p>About</p>
-                <p>Skills</p>
+                <a href="#About"><p>About</p></a>
+                <a href="#Skills"><p>Skills</p></a>
                 <p>Projects</p>
                 <p>Learning</p>
                 <p>Contact</p>
             </div>
         </nav>
+        <hr>
     </header>
     <main>
+        <section id="Home">
         <div class="mainleft">
             <h1 id="dash"><hr></h1>
             <h1>I’m Max,<br>an aspiring <br>Software Engineer<br></h1>
@@ -50,14 +52,47 @@
                 <h2>CONTACT ME</h2>
                 <br>
                 <div class="links">
-                    <h2><i class="ri-facebook-fill"></i></h2>
-                    <h2><i class="ri-twitter-fill"></i></h2>
-                    <h2><i class="ri-instagram-fill"></i></h2>
-                    <h2><i class="ri-linkedin-fill"></i></h2>
-                    <h2><i class="ri-github-fill"></i></h2>
+                    <a href="https://www.facebook.com/" target="_blank"><h2><i class="ri-facebook-fill"></i></h2></a>
+                    <a href="https://x.com/" target="_blank"><h2><i class="ri-twitter-x-fill"></i></h2></a>
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><h2><i class="ri-instagram-fill"></i></h2></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><h2><i class="ri-linkedin-fill"></i></h2></a>
+                    <a href="https://github.com/max-secdev/Screening" target="_blank"><h2><i class="ri-github-fill"></i></h2></a>
                 </div>
             </div>
         </div>
+        </section>
+        <section id="About">
+            <div class="aboutmain">
+            <div class="aboutleft">
+                <h2>/ ABOUT ME</h2>
+                <br>
+                <h1>I'm at the beginning <br> of my development journey.</h1>
+                <br>
+                <br><br><br><br><br>
+                <a href="./aboutme.html"><h4>MORE ABOUT ME <i id="arrowright1" class="ri-arrow-right-line"></i></h4></a>
+            </div>
+            <div class="aboutright">
+                <p>I'm a first-year B.Tech Computer Science Engineering student with an interest in Cyber Security and web development. I'm currently building my foundation in HTML and CSS, experimenting with CSS animations, and learning C++ programming with a focus on loops and basic programming concepts. I'm still at the beginning of my journey, but I'm consistently learning, experimenting and turning what I learn into small projects.</p>
+            </div>
+            </div>
+            <div class="aboutbottom">
+                <hr id="pagedivider">
+            </div>
+        </section>
+        <section id="Skills">
+            <div class="skills">
+                <div class="skillstop">
+                    <h2>/ Skills</h2>
+                    <br>
+                    <h1>What I'm learning.</h1>
+                    <br>
+                </div>
+                <div class="skillsdown">
+                    <h1>true</h1>
+                </div>
+            </div>
+        </section>
+        <section id="Projects"></section>
     </main>
     
 </body>
