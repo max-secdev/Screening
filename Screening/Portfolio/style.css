@@ -328,34 +328,103 @@ main {
  #Skills {
   height: 80%;
   width: 100%;
-  padding: 14% 5% 0% 5%;
+  padding: 14% 10% 0% 10%;
   background-color: #1B1F24;
  }
  #Skills .skills{
   height: 90%;
   width: 100%;
-  background-color: grey;
+  /* background-color: grey; */
  }
  .skills .skillstop {
   height: 13%;
   width: 100%;
-  background-color: green;
-  padding: 0 6%;
+  /* background-color: green; */
+  margin-bottom: 3%;
   color: white;
  }
   .skillstop h1 {
     font-size: 56px;
   }
   .skills .skillsdown {
-    background: purple;
+    /* background: purple; */
     height: 70%;
     width: 100%;
+    display: flex;
+    gap: 3%;
+  }
+  .skillsdown .cardbox {
+    height: 80%;
+    width: 30%;
+    background-color: #3c4554;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    color: white;
+    padding: 6% 0 0 3%;
+    font-size: 20px;
+  }
+  .cardbox img {
+    height: 25%;
+    width: 30%;
+  }
+  .cardbox p{
+    font-size: 18px;
+    color: #B8BBC0;
   }
 
   #Projects {
     height: 100%;
     width: 100%;
-    background-color: blue;
+    background-color: #22282F;
+    /* background-color: blue; */
+    padding: 15% 10% 0 10%;
+  }
+  #Projects .showcase {
+    /* background: green; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+  .showcase .showcaseleft {
+    /* background-color: grey; */
+    height: 100%;
+    width: 50%;
+    color: white;
+    /* padding-right: 4%; */
+    padding-bottom: 10%;
+  }
+  .showcaseleft h1 {
+    font-size: 56px;
+  }
+  .showcaseleft p {
+      color: #B8BBC0;
+  }
+  .showcase .showcaseright {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .showcase .showcasecard{
+    height: 60%;
+    width: 90%;
+    background-color: #3c4554;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    color: white;
+    padding: 6% 3% 0% 3%;
+    font-size: 20px;
+  }
+  .showcasecard img {
+    height: 40%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  .showcasecard p{
+    font-size: 18px;
+    color: #B8BBC0;
   }
  
   
