@@ -38,20 +38,17 @@ html, body {
 
 
 header {
-    height: 70px;
+    /* height: 80px; */
     width: 100%;
-    background-color: #0A0A0A;
-    /* position: fixed; */
+    background-color: #1B1F24;
+    position: fixed;
     top: 0;
     z-index: 10;
 }
 
  nav {
-    min-height: 10vh;
-    padding: 0 9rem;
+    padding: 1.5rem 10%;
     display: flex;
-    align-items: center;
-    align-self: center;
     justify-content: space-between;
 }
  nav .navleft {
@@ -128,7 +125,6 @@ main {
    line-height: 1.4;
   }
  .home .homeright {
-    /* background-color: aqua; */
     width: 30%;
     padding: 4rem 0 0 0%;
     display: flex;
@@ -175,10 +171,10 @@ main {
    color: WHITE;
  }
  .contact .links {
-   margin: 0 0 4rem 0;
+   margin: 1rem 0 0 0;
    display: flex;
    align-items: center;
-   gap: 10%;
+   gap: 2rem;
  }
  .links i {
    color: #B8BBC0;
@@ -221,34 +217,28 @@ main {
  }
 
 #About {
-  min-height: 75vh;
-  width: 100%;
+  min-height: 100vh;
   background-color: #22272F;
-  padding: 13% 10%;
+  padding: 15rem 10%;
  }
  #About .aboutmain{
-  height: 100%;
-  /* background-color: purple; */
+  padding: 1rem 0;
   display: flex;
+  color: white;
  }
  #About .aboutleft {
-  /* background-color: blue; */
-  height: 100%;
   width: 50%;
-  padding-right: 5%;
- }
- .aboutleft h2{
-  color: white;
+  padding: 0 5% 0 0;
  }
  .aboutleft h1{
   color: white;
   font-size: 56px;
  }
  .aboutleft h4 {
-   margin-top: 5%;
+   margin: 6rem 0 0 0;
    color: white;
    font-size: 15px;
-   font-weight: 525;
+   font-weight: 700;
    text-decoration: underline;
    text-underline-offset: 15px;
    text-decoration-color: #475262;
@@ -256,8 +246,6 @@ main {
    cursor: pointer;
  }
  #arrowright1 {
-   height: 100%;
-   /* background-color: blue; */
    position: absolute;
    font-size: 18px;
    left: 25%;
@@ -269,91 +257,68 @@ main {
  .aboutleft h4:hover {
    text-decoration-color: white;
  }
- #About .aboutright {
-  /* background-color: red; */
-  height: 100%;
+  #About .aboutright {
   width: 50%;
-  padding: 5% 0;
-  padding-right: 5%;
- }
- .aboutright p{
+  padding: 3rem;
   color: #B8BBC0;
   font-size: 20px;
+  line-height: 1.5;
  }
  .aboutbottom {
-  padding-top: 7%;
-  height: 30%;
+  padding: 10rem 0 0 0;
   opacity: 10%;
-  /* background-color: blue; */
  }
 
  #Skills {
-  min-height: 85vh;
+  min-height: 100vh;
   width: 100%;
-  padding: 14% 10% 0% 10%;
+  padding: 12rem 10%;
   background-color: #1B1F24;
  }
- #Skills .skills{
-  height: 90%;
-  width: 100%;
-  /* background-color: grey; */
- }
  .skills .skillstop {
-  height: 13%;
-  width: 100%;
-  /* background-color: green; */
-  margin-bottom: 3%;
+  padding: 3rem;
   color: white;
  }
   .skillstop h1 {
     font-size: 56px;
   }
   .skills .skillsdown {
-    /* background: purple; */
-    height: 70%;
     width: 100%;
     display: flex;
     gap: 3%;
   }
   .skillsdown .cardbox {
-    height: 80%;
-    width: 30%;
+    width: 40%;
     background-color: #3c4554;
     border: 2px solid transparent;
     border-radius: 20px;
+    padding: 6rem 4%;
     color: white;
-    padding: 6% 0 0 3%;
     font-size: 20px;
   }
   .cardbox img {
-    height: 25%;
-    width: 30%;
+    width: 90px;
+    height: auto;
   }
-  .cardbox p{
+  .cardbox ul{
     font-size: 18px;
     color: #B8BBC0;
   }
 
   #Projects {
-   min-height: 140vh;
+    min-height: 150vh;
     width: 100%;
     background-color: #22282F;
-    /* background-color: blue; */
-    padding: 15% 10% 10% 10%;
+    padding: 16rem 10%;
   }
   #Projects .showcase {
-    /* background: green; */
-    height: 100%;
     width: 100%;
     display: flex;
   }
   .showcase .showcaseleft {
-    /* background-color: grey; */
-    height: 100%;
     width: 50%;
     color: white;
-    /* padding-right: 4%; */
-    padding-bottom: 10%;
+    padding: 0 2.5% 0 0;
   }
   .showcaseleft h1 {
     font-size: 56px;
@@ -361,27 +326,30 @@ main {
   .showcaseleft p {
       color: #B8BBC0;
       font-size: 20px;
+      line-height: 1.5;
   }
   .showcase .showcaseright {
-    height: 90%;
     width: 50%;
+    padding: 0 0 0 2.5%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2rem;
   }
   .showcase .showcasecard{
-    height: 45%;
-    width: 90%;
     background-color: #3c4554;
     border: 2px solid transparent;
     border-radius: 40px;
     color: white;
-    padding: 6% 3% 0% 3%;
+    padding: 2rem;
     font-size: 20px;
   }
+  .showcasecard h1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
   .showcasecard img {
-    height: 40%;
     width: 100%;
+    height: auto;
     border: 1px solid black;
     border-radius: 16px;
   }
@@ -394,16 +362,14 @@ main {
     min-height: 100vh;
     width: 100%;
     background-color: #1B1F24;
-    padding: 15% 10% 0% 10%;
-    /* background-color: green; */
+    padding: 13rem 10%;
   }
   #Learning .learningmain {
-    height: 100%;
     width: 100%;
   }
   .learningmain .learningtop {
-    height: 25%;
     color: white;
+    padding: 0 0 3rem 2%;
   }
   .learningtop h1 {
     font-size: 56px;
@@ -411,39 +377,117 @@ main {
   .learningtop p {
       color: #B8BBC0;
       font-size: 20px;
+      line-height: 1.5;
   }
   .learningmain .learningdown {
-    height: 45%;
     width: 100%;
-    padding: 5% 5% 2% 5%;
+    padding: 5rem 5%;
     background-color: #22282F;
-    /* background-color: blue; */
     border: 1px solid transparent;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
-    gap: 10%;
+    gap: 2rem;
   }
   .learningdown .points {
-    height: 15%;
     color: #B8BBC0;
     background-color: #3C4554;
     border: 1px solid transparent;
     border-radius: 10px;
-    padding-left: 2%;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
+    padding: 1rem 3%;
     font-size: 15px;
   }
   .ri-arrow-right-s-line {
     color: #0051F9;
   }
   
-  #footer {
-    height: 100%;
+
+  footer {
     width: 100%;
-    background-color: red;
   }
- 
-  
+  footer #Contact {
+    min-height: 20vh;
+    width: 100%;
+    background-color: #22272F;
+    padding: 8rem 10%;
+  }
+   #Contact .contactmain{
+    width: 100%;
+    display: flex;
+  }
+  .contactmain .contactleft {
+    width: 60%;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 0 4rem 0;
+  }
+  .contactleft img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    border-radius: 80px;
+  }
+  .contactmain .contactright {
+    width: 40%;
+    padding: 0 0 5rem 0;
+    position: relative;
+  }
+ .contactright h1 {
+   color: white;
+   text-decoration-color: #475262;
+   font-size: 45px;
+   position: relative;
+   cursor: pointer;
+ }
+  #arrowright2 {
+   position: absolute;
+   color: #0051F9;
+   font-size: 45px;
+   left: 57%;
+   transition: 0.5s ease;
+  }
+  .contactright h1:hover  #arrowright2 {
+   left: 65%;
+  }
+  .contactright h1:hover {
+   text-decoration-color: white;
+  }
+   .contactright .footerlinks {
+   margin: 3rem 0 0 0;
+   display: flex;
+   align-items: center;
+   gap: 4rem;
+ }
+ .footerlinks i {
+   color: #B8BBC0;
+   font-size:35px;
+   cursor: pointer;
+   display: inline-block;
+   transition: 0.3s ease;
+ }
+ .footerlinks i:hover {
+   color: white;
+   transform: translateY(-7px) scale(1.15);
+ }
+ .contactbottom {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+ }
+ .contactbottom a {
+  color: #B8BBC0;
+  text-decoration: none;
+ }
+ .contactbottom p {
+    color: #B8BBC0;
+    font-weight: 525;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+ }
+.contactbottom p:hover {
+   color: white;
+   font-size: 22px;
+}
